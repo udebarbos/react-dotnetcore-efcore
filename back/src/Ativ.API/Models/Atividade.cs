@@ -11,10 +11,7 @@ namespace Ativ.API.Models
         public string titulo { get; set; }
         public string descricao { get; set; }
         public string prioridade { get; set; }
-        public Atividade()
-        {
-
-        }
+        public Atividade() { }
         public Atividade(int Id)
         {
             id = Id;
